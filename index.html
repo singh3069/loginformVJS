@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <h4 id="formDisplay">Submit form</h4>
+    <!-- <h4 id="closeForm"> Cancel From </h4> -->
+    <div id="signUpDiv">
+      <h1>SignUp</h1>
+      <p id="closeForm">+</p>
+      <form id="signUpForm">
+        <input
+          type="text"
+          placeholder="username"
+          id="name"
+          class="inputvalitation"
+          required
+          title="this Field can not be empty"
+        />
+        <input
+          type="text"
+          placeholder="course"
+          id="course"
+          class="inputvalitation"
+          required
+        />
+        <input
+          type="email"
+          placeholder="email"
+          id="email"
+          class="inputvalitation"
+          required
+        />
+        <input
+          type="password"
+          placeholder="password"
+          id="pass"
+          class="inputvalitation"
+          required
+        />
+        <input
+          type="password"
+          placeholder="confirm password"
+          id="ConPass"
+          class="inputvalitation"
+          required
+        />
+        <input type="submit" id="button" value="Create Account" />
+      </form>
+      <p class="switchText">Allready Have Account? <strong>Login</strong> </p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

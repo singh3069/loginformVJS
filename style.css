@@ -1,0 +1,85 @@
+#signUpForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  /* background: bisque; */
+  justify-content: center;
+  align-items: center;
+}
+
+#signUpDiv {
+  width: 400px;
+  height: 450px;
+  background: white;
+  position: relative;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  box-shadow: 0px 0px 6px 1px grey;
+}
+
+.inputvalitation {
+  border-radius: 5px;
+  width: 80%;
+  height: 28px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+#signUpDiv h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#signUpForm input:focus-visible {
+  outline: none;
+}
+
+h4 {
+  cursor: pointer;
+  border: 2px solid black;
+  display: inline;
+  background: blue;
+  color: white;
+}
+
+#closeForm {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 800;
+  width: fit-content;
+  margin: 0px;
+  height: auto;
+  transform: rotate(45deg);
+}
+
+#button {
+  color: #fff;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 80%;
+  height: 30px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+#button:hover {
+  background-color: darkblue;
+}
+
+.switchText {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: flex-end;
+}
